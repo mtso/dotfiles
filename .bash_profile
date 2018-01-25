@@ -1,2 +1,5 @@
+INCLUDE_PATH=$HOME/_includes
 
-source $HOME/_includes/logbook.sh
+for filename in $INCLUDE_PATH/*; do
+    source filename
+done
