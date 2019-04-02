@@ -1,0 +1,8 @@
+alias did="vi +'normal Go' +'r!date' +'normal Go' ~/did.txt"
+alias ls="exa"
+alias rcpj='echo "$(pbpaste)" | json_pp --json_opt=canonical,pretty | sed "s/   /    /g" | pbcopy'
+alias timestamp='date +%s'
+alias flushdns='sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder'
+alias bashmonolith='docker-compose exec --user monolith monolith bash'
+alias tolower='tr "[:upper:]" "[:lower:]"'
+alias toupper='tr "[:lower:]" "[:upper:]"'
