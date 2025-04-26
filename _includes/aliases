@@ -6,3 +6,4 @@ alias flushdns='sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder'
 alias bashmonolith='docker-compose exec --user monolith monolith bash'
 alias tolower='tr "[:upper:]" "[:lower:]"'
 alias toupper='tr "[:lower:]" "[:upper:]"'
+alias note="mkdir -p ~/dev/log && \${EDITOR:-nvim} ~/dev/log/\$(date '+%Y-%m-%d').md +"
